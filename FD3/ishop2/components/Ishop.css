@@ -1,0 +1,14 @@
+﻿
+.Ishop
+{
+  border: double black 3px;
+  width: 500px;
+  padding: 3px 7px;
+  background-color: orange;
+  text-align: center;
+}
+
+.Ishop .Toys
+{
+  padding-top: 10px;
+}
