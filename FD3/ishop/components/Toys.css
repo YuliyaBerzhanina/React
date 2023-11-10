@@ -1,0 +1,50 @@
+﻿div.IshopToys
+{
+  padding: 2px 0;
+ }
+
+div.IshopToys .Count
+{
+  font-weight: bold;
+ }
+
+div.IshopToys .Text
+{
+  margin-right: 30px;
+  }
+
+label.IshopToys input
+{
+  margin: 0 5px 0 0;
+}
+
+label.IshopToys span
+{
+  vertical-align: 3px;
+}
+
+label.IshopToys .FreeAnswer
+{
+  width: 150px;
+  margin-left: 18px;
+  vertical-align: 3px;
+}
+
+table
+{
+table-layout: fixed;
+border-bottom: solid green 1px;
+width: 500px;
+text-align: center;
+}
+
+td.Text td.Count 
+{
+  overflow: hidden;
+}
+
+img
+{
+  width: 40px;
+  height: 40px;
+}
