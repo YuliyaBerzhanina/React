@@ -11,6 +11,7 @@ ReactDOM.render(
   <Ishop 
     name={nameText}
     toys={toysArr}
+  
   />
   , document.getElementById('container') 
 );

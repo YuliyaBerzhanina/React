@@ -1,11 +1,17 @@
 ﻿import React from 'react';
+import PropTypes from 'prop-types';
 
 import './Ishop.css';
 
 import ShopName from './ShopName';
-import Toys from './Toys';
+import Toy from './Toy';
 
 class Ishop extends React.Component {
+
+  static propTypes = {
+    name: PropTypes.string.isRequired,
+    toys: PropTypes.array,
+};
 
   state = {
     toys: this.props.toys,
@@ -23,7 +29,7 @@ class Ishop extends React.Component {
 
   render() {
     const toysCode=this.state.toys.map( v =>
-      <Toys
+      <Toy
         key={v.code} text={v.text} count={v.count} price={v.price} photo={v.photo} title={v.title}
         checked={v.checked} code={v.code} 
        selectedToyCode={this.state.selectedToyCode}
@@ -34,8 +40,10 @@ class Ishop extends React.Component {
     return (
       <div className='Ishop'>
         <ShopName name={this.props.name}/>
-        <div className='Toys'>{toysCode}</div>
+        <div className='Toy'>{toysCode}</div><br></br>
+       
       </div>
+     
     );
   }
 }

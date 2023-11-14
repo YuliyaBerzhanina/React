@@ -1,8 +1,0 @@
-[ 
-    {"text":"наименование", "code":1, "count":"количество", "price":"цена", "photo":"components/images/image0.png", "title":true}, 
-    {"text":"дракон", "code":2, "count":10, "price":"50$", "photo":"components/images/image1.jpg"}, 
-    {"text":"заяц", "code":3, "count":3, "price":"20$", "photo":"components/images/image2.jpg"}, 
-    {"text":"муравей", "code":4, "count":8, "price":"30$", "photo":"components/images/image3.jpg"},
-    {"text":"сова", "code":5, "count":17, "price":"15$", "photo":"components/images/image4.jpg"},
-    {"text":"фламинго", "code":6, "count":9, "price":"35$", "photo":"components/images/image5.jpg"}
-]

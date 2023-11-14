@@ -1,29 +1,29 @@
-﻿div.IshopToys
+﻿div.IshopToy
 {
   padding: 2px 0;
  }
 
-div.IshopToys .Count
+div.IshopToy .Count
 {
   font-weight: bold;
  }
 
-div.IshopToys .Text
+div.IshopToy .Text
 {
   margin-right: 30px;
   }
 
-label.IshopToys input
+label.IshopToy input
 {
   margin: 0 5px 0 0;
 }
 
-label.IshopToys span
+label.IshopToy span
 {
   vertical-align: 3px;
 }
 
-label.IshopToys .FreeAnswer
+label.IshopToy .FreeAnswer
 {
   width: 150px;
   margin-left: 18px;
