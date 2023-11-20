@@ -20,6 +20,7 @@ class ShopName extends React.Component {
              <td className='Photo'>{"фото"}</td>
              <td className='Price'>{"цена"}</td>
              <td></td>
+             <td></td>
              </tr>   
            </tbody>    
          </table>

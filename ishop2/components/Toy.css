@@ -23,18 +23,12 @@ label.IshopToy span
   vertical-align: 3px;
 }
 
-label.IshopToy .FreeAnswer
-{
-  width: 150px;
-  margin-left: 18px;
-  vertical-align: 3px;
-}
 
 table
 {
 table-layout: fixed;
 border-bottom: solid green 1px;
-width: 500px;
+width: 600px;
 text-align: center;
 }
 

@@ -22,6 +22,12 @@ class Toy extends React.Component {
         this.props.cbDelete(this.props.code);
               };
 
+       edit = eo => {
+        eo.stopPropagation();
+        this.props.cbSelected(this.props.code);
+        // this.props.cbEdit(this.props.code);
+             };
+
    render() {
     return (
           <table className='IshopToy' style={{background:(this.props.selectedToyCode===this.props.code)?"greenyellow":"beige"}}
@@ -32,7 +38,12 @@ class Toy extends React.Component {
               <td className='Count'>{this.props.count}</td>
               <td className='Photo'><img src={this.props.photo}></img></td>
               <td className='Price'>{this.props.price+"$"}</td>
-              <td><input className='Delete' type="button" value="delete" onClick={this.delete}></input></td>
+              <td>
+                <input className='Edit' type="button" value="edit" onClick={this.edit}></input>
+              </td>
+              <td>
+                <input className='Delete' type="button" value="delete" onClick={this.delete}></input>
+                </td>
              </tr>   
             </tbody>    
           </table>

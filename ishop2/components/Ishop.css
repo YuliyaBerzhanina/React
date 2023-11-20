@@ -2,7 +2,8 @@
 .Ishop
 {
   border: double black 3px;
-  width: 500px;
+  width: 600px;
+  height: 600px;
   padding: 3px 7px;
   background-color: orange;
   text-align: center;
@@ -11,4 +12,11 @@
 .Ishop .Toy
 {
   padding-top: 0px;
+}
+
+.Card
+{
+  width: 50px;
+  height: 50px;
+  
 }
