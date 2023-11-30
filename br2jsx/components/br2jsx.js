@@ -15,7 +15,7 @@ class Br2jsx extends React.Component {
    for ( let i=0; i<words.length; i++) {
     jsxArr.push(words[i]);
     if (i<words.length-1) {
-      jsxArr.push(<br/>);
+      jsxArr.push(<br key={i}/>);
     }
    }
 
